@@ -3,7 +3,6 @@ package model;
 public class Cliente {
     private int id;
     private String nome;
-    private String cnh;
     private String cpf;
     private String email;
     private String telefone;
@@ -30,14 +29,6 @@ public class Cliente {
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
-
-    public String getCnh() {
-        return cnh;
-    }
-
-    public void setCnh(String cnh) {
-        this.cnh = cnh;
     }
 
     public String getCpf() {
