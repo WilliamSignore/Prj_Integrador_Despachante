@@ -14,6 +14,7 @@ public class Cliente {
     private String bairro;
     private String cidade;
     private String uf;
+    private int idade;
 
     public int getId() {
         return id;
@@ -29,6 +30,14 @@ public class Cliente {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public int getidade() {
+        return idade;
+    }
+
+    public void setidade(int idade) {
+        this.idade = idade;
     }
 
     public String getCpf() {
