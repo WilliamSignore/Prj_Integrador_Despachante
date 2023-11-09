@@ -2,6 +2,7 @@ package model;
 
 public class Cliente {
     private int id;
+    private String CNH;
     private String nome;
     private String cpf;
     private String email;
@@ -26,6 +27,14 @@ public class Cliente {
 
     public String getNome() {
         return nome;
+    }
+
+    public void setCNH(String cnh) {
+        this.cnh = cnh;
+    }
+
+    public String getCNH() {
+        return CNH;
     }
 
     public void setNome(String nome) {
